@@ -3,7 +3,7 @@
         "translation": {
             "language": "EN",
             "common": {
-                "title": "Fuel Dashboard",
+                "title": "OakCloud Dashboard",
                 "select_all": "Select All",
                 "load_defaults_button": "Load Defaults",
                 "cancel_changes_button": "Cancel Changes",
@@ -35,8 +35,8 @@
                 "success": "Success",
                 "error": "Error",
                 "see_logs": "See the logs",
-                "copyright": "Copyright © 2013-2015 Mirantis. All rights reserved.",
-                "version": "Version",
+                "copyright": "Copyright © 2006-2015 青岛众恒信息科技股份有限公司. All rights reserved.",
+                "version": "Version 1.1",
                 "change_password": "Change password",
                 "logout": "Logout",
                 "role_limits": {
@@ -87,10 +87,10 @@
                 "title": "Log In"
             },
             "statistics": {
-                "help_to_improve": "Help us to improve your experience by sending Mirantis information about the settings, features, and deployment actions when you use Mirantis OpenStack.",
-                "help_to_improve_community": "Help us to improve your experience by sending information about the settings, features, and deployment actions when you use Fuel and OpenStack.",
+                "help_to_improve": "Help us to improve your experience by sending OakCloud information about the settings, features, and deployment actions when you use OakCloud.",
+                "help_to_improve_community": "Help us to improve your experience by sending information about the settings, features, and deployment actions when you use Zehin and OakCloud.",
                 "learn_whats_collected": "Learn what's collected",
-                "statistics_user_info": "Note, that if you agree to send statistics, a new user under \"fuel_stats_user\" name will be added to your OpenStack environment. The fuel_stats_user will collect information about OpenStack workloads.",
+                "statistics_user_info": "Note, that if you agree to send statistics, a new user under \"fuel_stats_user\" name will be added to your OakCloud environment. The fuel_stats_user will collect information about OakCloud workloads.",
                 "statistics_includes_full": "Usage statistics include the following. Information such as passwords, ip addresses, and node names are not included.",
                 "actions_title": "Actions:",
                 "actions": {
@@ -125,14 +125,14 @@
                 "system_info": {
                     "hypervisor": "Hypervisor",
                     "hardware_info": "Hardware info",
-                    "fuel_version": "Fuel version info",
-                    "openstack_version": "OpenStack version info"
+                    "fuel_version": "OakCloud version info",
+                    "openstack_version": "OakCloud version info"
                 },
                 "setting_labels": {
-                    "send_anonymous_statistic": "Send usage statistics to Mirantis",
+                    "send_anonymous_statistic": "Send usage statistics to OakCloud",
                     "send_anonymous_statistic_community": "Send usage statistics",
-                    "send_user_info": "Identify my error reports so that Mirantis Support can assist me",
-                    "send_user_info_community": "Identify my error reports so that Mirantis Support can assist me",
+                    "send_user_info": "Identify my error reports so that OakCloud Support can assist me",
+                    "send_user_info_community": "Identify my error reports so that OakCloud Support can assist me",
                     "name": "Name",
                     "email": "Email",
                     "company": "Company"
@@ -144,19 +144,19 @@
                 }
             },
             "welcome_page": {
-                "title": "Welcome to Mirantis OpenStack",
-                "title_community": "Welcome to Fuel and OpenStack",
-                "start_fuel": "Start Using Fuel",
+                "title": "Welcome to OakCloud",
+                "title_community": "Welcome to Zehin and OakCloud",
+                "start_fuel": "Start Using OakCloud",
                 "connect_now": "Connect Now",
                 "connect_later": "Connect Later",
                 "change_settings": "You can change your settings at any time by updating your user profile information.",
-                "thanks": "Thanks for helping to improve Mirantis OpenStack!",
-                "thanks_community": "Thanks for helping to improve Fuel and OpenStack!",
+                "thanks": "Thanks for helping to improve OakCloud!",
+                "thanks_community": "Thanks for helping to improve Zehin and OakCloud!",
                 "statistics_collector": "Web UI for collected statistics is under development and will be available at ",
-                "privacy_policy": "Usage stats will include your name, company and email once you login to your Mirantis account",
+                "privacy_policy": "Usage stats will include your name, company and email once you login to your OakCloud account",
                 "privacy_policy_link": "Read Privacy Policy",
                 "register": {
-                    "register_installation": "Connect this installation with your Mirantis account and receive important notifications about security updates and other improvements.",
+                    "register_installation": "Connect this installation with your OakCloud account and receive important notifications about security updates and other improvements.",
                     "link_text": "Register Now",
                     "create_account": "Create Account",
                     "retrieve_password": "Retrieve Password",
@@ -200,10 +200,10 @@
                 "irc_text": "If you have any questions, you can also reach out to developers on the IRC channel",
                 "log_text": "If you have encountered some bugs or errors, you may need to provide the support team with deployment and operational logs. You can download them all at once by clicking the button below.",
                 "contact_support": "Contact Support",
-                "register_fuel_title": "Connect Mirantis Account",
+                "register_fuel_title": "Connect OakCloud Account",
                 "register_fuel_content": "This will ensure that you receive important notifications about security updates and other improvements. In addition you will be notified about new versions of Mirantis products.",
-                "product_registered_title": "Connect Mirantis Account",
-                "product_registered_content": "This OpenStack installation is connected to",
+                "product_registered_title": "Connect OakCloud Account",
+                "product_registered_content": "This OakCloud installation is connected to",
                 "master_node_uuid": "Master Node UUID",
                 "manage_account": "Manage Account",
                 "download_diagnostic_snapshot_text": "Download Diagnostic Snapshot",
@@ -211,19 +211,19 @@
                 "gen_diagnostic_snapshot_text": "Generate Diagnostic Snapshot",
                 "diagnostic_snapshot": "Diagnostic Snapshot",
                 "capacity_audit": "Capacity Audit",
-                "capacity_audit_text": "To better manage your resources, you can run this report to find out what OpenStack roles have been deployed across all of your environments.",
+                "capacity_audit_text": "To better manage your resources, you can run this report to find out what OakCloud roles have been deployed across all of your environments.",
                 "view_capacity_audit": "View Capacity Audit",
                 "send_statistics_title": "Send Statistics About Usage",
                 "save_changes": "Save Changes",
                 "documentation_link": "Go to Documentation",
                 "community_title": "Fuel Documentation",
-                "mirantis_title": "Mirantis OpenStack Documentation",
-                "community_text": "The page contains the most recent Fuel documentation. You can read it online or download in PDF.",
-                "mirantis_text": "The page contains the most recent Mirantis OpenStack documentation. You can read it online or download in PDF."
+                "mirantis_title": "Mirantis OakCloud Documentation",
+                "community_text": "The page contains the most recent OakCloud documentation. You can read it online or download in PDF.",
+                "mirantis_text": "The page contains the most recent OakCloud documentation. You can read it online or download in PDF."
             },
             "release_page": {
                 "title": "Releases",
-                "name": "OpenStack Release",
+                "name": "OakCloud Release",
                 "version": "Version",
                 "state": "Status",
                 "no_releases_message": "There are no releases available.",
@@ -234,8 +234,8 @@
                 }
             },
             "clusters_page": {
-                "title": "My OpenStack Environments",
-                "create_cluster_text": "New OpenStack Environment",
+                "title": "My OakCloud Environments",
+                "create_cluster_text": "New OakCloud Environment",
                 "cluster_hardware_nodes": "Nodes",
                 "cluster_hardware_cpu": "CPU (cores)",
                 "cluster_hardware_hdd": "HDD",
@@ -365,7 +365,7 @@
                     "no_selected_nodes": "There are no selected nodes to edit.",
                     "disk_configuration_reset_warning": "Disk configuration will be reset to default after roles change.",
                     "no_nodes_in_environment": "To add nodes to the environment, select the Add Nodes option, choose the nodes you want to allocate and assign roles to each.",
-                    "no_nodes_in_fuel": "A pool of one or more unallocated nodes is needed for this operation. To add to the pool, configure nodes to boot from the network (a.k.a. PXE booting). Fuel will automatically provision and discover the nodes.",
+                    "no_nodes_in_fuel": "A pool of one or more unallocated nodes is needed for this operation. To add to the pool, configure nodes to boot from the network (a.k.a. PXE booting). OakCloud will automatically provision and discover the nodes.",
                     "role_conflict": "This role cannot be combined with the other roles already selected.",
                     "node_deletion_error": {
                         "title": "Node Deletion Error",
@@ -377,11 +377,11 @@
                 },
                 "settings_tab": {
                     "settings_error": {
-                        "title": "OpenStack Settings Configuration Error",
+                        "title": "OakCloud Settings Configuration Error",
                         "load_defaults_warning": "Unable to load default configuration",
                         "saving_warning": "Unable to apply changes"
                     },
-                    "title": "OpenStack Settings",
+                    "title": "OakCloud Settings",
                     "dependent_role_warning": "The environment contains __roles__ node",
                     "dependent_role_warning_plural": "The environment contains __roles__ nodes",
                     "dependent_settings_warning": "__settings__ is active",
@@ -522,10 +522,10 @@
                     "no_log_text": "No log entries match current filters."
                 },
                 "healthcheck_tab": {
-                    "title": "OpenStack Health Check",
+                    "title": "OakCloud Health Check",
                     "run_tests_button": "Run Tests",
                     "stop_tests_button": "Stop Tests",
-                    "deploy_alert": "You must deploy your OpenStack environment before running tests against it.",
+                    "deploy_alert": "You must deploy your OakCloud environment before running tests against it.",
                     "not_available_alert": "OSTF server is not available.",
                     "expected_duration": "Expected Duration",
                     "actual_duration": "Actual Duration",
@@ -547,7 +547,7 @@
                 "deployment_mode": "Deployment Mode",
                 "show_details_button": "Show additional information",
                 "hide_details_button": "Hide additional information",
-                "openstack_release": "OpenStack Release",
+                "openstack_release": "OakCloud Release",
                 "environment_status": "Status",
                 "cluster_was_modified_from_cli": "Some deployment parameters for this environment have been modified from Fuel CLI. Changes from Fuel CLI take precedence over any settings made from your browser. Proceed with caution.",
                 "unavailable_release": "__name__ release is unavailable. The environment can not be deployed."
@@ -555,8 +555,8 @@
             "capacity_page": {
                 "title": "Capacity Audit",
                 "license_usage": "License Usage Report",
-                "fuel_version": "Fuel version",
-                "fuel_uuid": "Fuel UUID",
+                "fuel_version": "OakCloud version",
+                "fuel_uuid": "OakCloud UUID",
                 "env_name": "Environment Name",
                 "node_count": "Node Count",
                 "total_number_alloc_nodes": "Total number of allocated nodes",
@@ -568,18 +568,18 @@
             },
             "dialog": {
                 "create_cluster_wizard": {
-                    "title": "Create a new OpenStack environment",
+                    "title": "Create a new OakCloud environment",
                     "prev": "Prev",
                     "next": "Next",
                     "create": "Create",
-                    "configuration_failed_warning": "Your OpenStack environment has been created, but configuration failed. You can configure it manually.",
+                    "configuration_failed_warning": "Your OakCloud environment has been created, but configuration failed. You can configure it manually.",
                     "name_release": {
                         "title": "Name and Release",
                         "name": "Name",
-                        "release_label": "OpenStack Release",
+                        "release_label": "OakCloud Release",
                         "existing_environment": "Environment with name \"__name__\" already exists",
                         "Ubuntu_connectivity_alert": "By default, packages will be fetched from external repositories. Please make sure your Fuel master node has internet access.\nTo specify alternate repositories, or to create a local mirror, please check the Settings tab before deployment.",
-                        "CentOS_connectivity_alert": "Please make sure your Fuel master node has internet access.\nTo specify alternate repositories, or to create a local mirror, please check the Settings tab before deployment."
+                        "CentOS_connectivity_alert": "Please make sure your OakCloud master node has internet access.\nTo specify alternate repositories, or to create a local mirror, please check the Settings tab before deployment."
                     },
                     "mode": {
                         "title": "Deployment Mode"
@@ -589,8 +589,8 @@
                         "kvm": "KVM",
                         "qemu": "QEMU",
                         "vcenter": "vCenter",
-                        "kvm_description": "Choose this type of hypervisor if you run OpenStack on hardware",
-                        "qemu_description": "Choose this type of hypervisor if you run OpenStack on virtual hosts",
+                        "kvm_description": "Choose this type of hypervisor if you run OakCloud on hardware",
+                        "qemu_description": "Choose this type of hypervisor if you run OakCloud on virtual hosts",
                         "vcenter_description": "Choose this option if you have a vCenter environment with ESXi servers to be used as hypervisors",
                         "vcenter_ip": "Hostname",
                         "vcenter_ip_description": "Hostname or IP Address of vCenter",
@@ -608,11 +608,11 @@
                     "network": {
                         "title": "Networking Setup",
                         "description": "Choose the private (guest) network configuration. The choice you make here cannot be changed after you finish the wizard. More information see the ",
-                        "description_link": "Mirantis OpenStack Planning Guide for Network Topology",
+                        "description_link": "OakCloud Planning Guide for Network Topology",
                         "release_alert": "Neutron is not supported in __NameAndRelease.release_name__",
                         "hypervisor_alert": "Neutron with VLAN or GRE segmentaion is not available with __Compute.vcenter__ as a compute option.",
                         "nova_network": "(DEPRECATED) Legacy Networking (nova-network)",
-                        "nova_network_description": "Choose this option if you use VMware vCenter or require different subnets for public and floating IP addresses. Note that OpenStack is moving to deprecate nova-network in upcoming releases.",
+                        "nova_network_description": "Choose this option if you use VMware vCenter or require different subnets for public and floating IP addresses. Note that OakCloud is moving to deprecate nova-network in upcoming releases.",
                         "neutr_gre": "Neutron with GRE segmentation",
                         "neutr_gre_description": "The networking equipment must support GRE segmentation. This option supports up to 65535 networks.",
                         "neutr_vlan": "Neutron with VLAN segmentation (default)",
@@ -639,11 +639,11 @@
                         "release_alert": "Additional services are not available in __NameAndRelease.release_name__",
                         "network_mode_alert": "Murano requires Neutron as a network option.",
                         "install_sahara": "Install Sahara",
-                        "install_sahara_description": "Sahara enables on demand provisioning of Hadoop clusters to be deployed on OpenStack utilizing a variety of vendor distributions.",
+                        "install_sahara_description": "Sahara enables on demand provisioning of Hadoop clusters to be deployed on OakCloud utilizing a variety of vendor distributions.",
                         "install_murano": "Install Murano",
                         "install_murano_description": "Murano is an application catalog, which allows application developers and cloud administrators to publish various cloud-ready applications in a browsable categorized catalog, which may be used by the cloud users (including the inexperienced ones) to pick-up the needed applications and services and composes the reliable environments out of them in a “push-the-button” manner.",
-                        "install_ceilometer": "Install Ceilometer (OpenStack Telemetry)",
-                        "install_ceilometer_description": "Ceilometer provides metering and monitoring of an OpenStack cloud."
+                        "install_ceilometer": "Install Ceilometer (OakCloud Telemetry)",
+                        "install_ceilometer_description": "Ceilometer provides metering and monitoring of an OakCloud cloud."
                     },
                     "ready": {
                         "title": "Finish",
@@ -654,7 +654,7 @@
                         "env": "Environments"
                     },
                     "create_cluster_error": {
-                        "title": "OpenStack Environment Creation Error"
+                        "title": "OakCloud Environment Creation Error"
                     }
                 },
                 "dismiss_settings": {
@@ -672,7 +672,7 @@
                     "deleted_node": "Deleted __count__ node.",
                     "deleted_node_plural": "Deleted __count__ nodes.",
                     "settings_changes": {
-                        "attributes": "Changed OpenStack settings.",
+                        "attributes": "Changed OakCloud settings.",
                         "networks": "Changed network settings.",
                         "disks": "Changed disk configuration of the following nodes:",
                         "interfaces": "Changed interface configuration of the following nodes:"
@@ -717,7 +717,7 @@
                     "cant_discard": "Can't discard node changes"
                 },
                 "remove_node": {
-                    "default_message": "Fuel will remove this node from its database. This operation will not try to erase MBR or any data on this node. If you power on the node, it will boot bootstrap (discovery) system, and node re-appear in Fuel as new, unallocated server.",
+                    "default_message": "OakCloud will remove this node from its database. This operation will not try to erase MBR or any data on this node. If you power on the node, it will boot bootstrap (discovery) system, and node re-appear in Fuel as new, unallocated server.",
                     "title": "Remove Node"
                 },
                 "remove_cluster": {
@@ -774,7 +774,7 @@
                 "retrieve_password": {
                     "title": "Retrieve Password",
                     "send_new_password": "Send New Password",
-                    "submit_email": "Please submit your Mirantis Account Email and we will send your new password.",
+                    "submit_email": "Please submit your OakCloud Account Email and we will send your new password.",
                     "done": "Done.",
                     "check_email": "Please check your email for new password"
                 }
@@ -785,7 +785,7 @@
         "translation": {
             "language": "CN",
             "common": {
-                "title": "Fuel Dashboard",
+                "title": "OakCloud Dashboard",
                 "select_all": "选择全部",
                 "load_defaults_button": "恢复默认",
                 "cancel_changes_button": "取消变更",
@@ -865,10 +865,10 @@
             "support_page": {
                 "title": "支持",
                 "contact_text": "欢迎提出反馈和改进意见，请点击下面的按钮，我们将尽快回复您。",
-                "irc_text": "如果您有任何问题，可通过IRC（freenode.net网络的 #fuel 频道）联系开发者。",
-                "log_text": "如果您在使用Fuel Web的过程中遇到任何错误或异常，可能需要将日志提交给支持团队，请点击按钮下载：",
+                "irc_text": "如果您有任何问题，联系开发者。",
+                "log_text": "如果您在使用OakCloud Web的过程中遇到任何错误或异常，可能需要将日志提交给支持团队，请点击按钮下载：",
                 "contact_support": "联系支持",
-                "register_fuel_title": "注册FUEL",
+                "register_fuel_title": "注册OakCloud",
                 "register_fuel_content": "注册后能收到新版本和相关重要信息。另外，您在接下来的30天内将可得到基础支持服务!",
                 "download_diagnostic_snapshot_text": "下载诊断快照",
                 "gen_logs_snapshot_text": "生成日志快照...",
@@ -891,8 +891,8 @@
                 }
             },
             "clusters_page": {
-                "title":"我的OpenStack环境",
-                "create_cluster_text": "新建OpenStack环境",
+                "title":"我的OakCloud环境",
+                "create_cluster_text": "新建OakCloud环境",
                 "cluster_hardware_nodes": "节点",
                 "cluster_hardware_cpu": "CPU (cores)",
                 "cluster_hardware_hdd": "HDD",
@@ -942,7 +942,7 @@
                             "ready": "已就绪",
                             "provisioning": "正在安装__os__",
                             "provisioned": "__os__已安装",
-                            "deploying": "正在安装OpenStack"
+                            "deploying": "正在安装OakCloud"
                         },
                         "view_logs": "查看日志",
                         "discard_addition": "取消增加",
@@ -954,10 +954,10 @@
                     "unallocated_nodes": "未分配节点",
                     "no_selected_nodes": "没有选择任何节点",
                     "no_nodes_in_environment": "选择想分配的节点并设置角色",
-                    "no_nodes_in_fuel": "这个操作需要拥有一个或多个未分配节点的节点池。配置节点从网络启动来将它添加到节点池(PXE booting)。Fuel会自动发现节点。"
+                    "no_nodes_in_fuel": "这个操作需要拥有一个或多个未分配节点的节点池。配置节点从网络启动来将它添加到节点池(PXE booting)。OakCloud会自动发现节点。"
                 },
                 "settings_tab": {
-                    "title": "OpenStack设置",
+                    "title": "OakCloud设置",
                     "access": {
                         "label": "访问",
                         "user": {
@@ -1040,23 +1040,23 @@
                     "common": {
                         "label": "通用",
                         "debug": {
-                            "label": "OpenStack调试日志",
+                            "label": "OakCloud调试日志",
                             "description": "调试模式能够提供更多信息，但也需要更多磁盘空间。"
                         },
                         "auto_assign_floating_ip": {
                             "label": "自动分配浮动IP",
-                            "description": "OpenStack将自动给新实例分配浮动IP"
+                            "description": "OakCloud将自动给新实例分配浮动IP"
                         },
                         "libvirt_type": {
                             "label": "管理器类型",
                             "values": {
                                 "kvm": {
                                     "label": "KVM",
-                                    "description": "如果在硬件上运行OpenStack，选择该类型的管理器"
+                                    "description": "如果在硬件上运行OakCloud，选择该类型的管理器"
                                 },
                                 "qemu": {
                                     "label": "QEMU",
-                                    "description": "如果您在虚拟机上运行OpenStack请选择该类型的管理器"
+                                    "description": "如果您在虚拟机上运行OakCloud请选择该类型的管理器"
                                 }
                             }
                         },
@@ -1066,7 +1066,7 @@
                         },
                         "use_cow_images": {
                             "label": "为映像使用qcow格式",
-                            "description": "大多数情况下您需要qcow格式。如果设置为false，将使用原始映像格式运行虚机。基于原始格式的OpenStack当前不支持快照"
+                            "description": "大多数情况下您需要qcow格式。如果设置为false，将使用原始映像格式运行虚机。基于原始格式的OakCloud当前不支持快照"
                         },
                         "compute_scheduler_driver": {
                             "label": "调度方式",
@@ -1154,10 +1154,10 @@
                     "no_log_text": "当前过滤器没有找到任何日志。"
                 },
                 "healthcheck_tab": {
-                    "title": "OpenStack健康检查",
+                    "title": "OakCloud健康检查",
                     "run_tests_button": "运行测试",
                     "stop_tests_button": "停止测试",
-                    "deploy_alert": "在测试之前必须先部署新的OpenStack环境",
+                    "deploy_alert": "在测试之前必须先部署新的OakCloud环境",
                     "not_available_alert": "OSTF服务不可用",
                     "expected_duration": "Expected Duration",
                     "actual_duration": "Actual Duration",
@@ -1165,14 +1165,14 @@
                 },
                 "deploy_changes": "部署变更",
                 "deployment_mode": "部署模式：",
-                "openstack_release": "OpenStack版本：",
+                "openstack_release": "OakCloud版本：",
                 "environment_status": "环境状态："
             },
             "capacity_page": {
                 "title": "性能审计",
                 "license_usage": "许可使用报告",
-                "fuel_version": "Fuel版本",
-                "fuel_uuid": "Fuel UUID",
+                "fuel_version": "OakCloud版本",
+                "fuel_uuid": "OakCloud UUID",
                 "env_name": "环境名称",
                 "node_count": "节点数量",
                 "total_number_alloc_nodes": "全部已分配节点的数量",
@@ -1184,22 +1184,22 @@
             },
             "dialog": {
                 "create_cluster_wizard": {
-                    "title": "新建OpenStack环境",
+                    "title": "新建OakCloud环境",
                     "prev": "后退",
                     "next": "前进",
                     "create": "新建",
                     "name_release": {
                         "title": "名称和版本",
                         "name": "名称",
-                        "release_label": "OpenStack版本"
+                        "release_label": "OakCloud版本"
                     },
                     "mode": {
                         "title": "部署模式"
                     },
                     "compute": {
                         "title": "计算",
-                        "kvm_description": "如果在硬件上运行OpenStack，请选择该管理器类型",
-                        "qemu_description": "如果在虚机上运行OpenStack，请选择该管理器类型"
+                        "kvm_description": "如果在硬件上运行OakCloud，请选择该管理器类型",
+                        "qemu_description": "如果在虚机上运行OakCloud，请选择该管理器类型"
                     },
                     "network": {
                         "title": "网络",
@@ -1222,9 +1222,9 @@
                         "title": "附加服务",
                         "release_alert": "__releaseName__不支持附加服务",
                         "install_sahara": "安装Sahara",
-                        "install_sahara_description": "利用Sahara能在各大版本厂商的OpenStack上的部署Hadoop集群。",
+                        "install_sahara_description": "利用Sahara能在各大版本厂商的OakCloud上的部署Hadoop集群。",
                         "install_murano": "安装Murano",
-                        "install_murano_description": "利用Murano能将基于Windows的数据中心服务，如活动目录、IIS、Microsoft SQL和ASP.NET部署到OpenStack上。"
+                        "install_murano_description": "利用Murano能将基于Windows的数据中心服务，如活动目录、IIS、Microsoft SQL和ASP.NET部署到OakCloud上。"
                     },
                     "ready": {
                         "title": "完成",
@@ -1250,7 +1250,7 @@
                     "deleted_node": "删除__count__个节点。",
                     "deleted_node_plural": "删除__count__个节点。",
                     "settings_changes": {
-                        "attributes": "OpenStack设置",
+                        "attributes": "OakCloud设置",
                         "networks": "网络设置",
                         "disks": "以下节点的磁盘配置变更："
                     },
