@@ -143,31 +143,6 @@
                     "company": "Please fill in company name"
                 }
             },
-            "welcome_page": {
-                "title": "Welcome to OakCloud",
-                "title_community": "Welcome to Zehin and OakCloud",
-                "start_fuel": "Start Using OakCloud",
-                "connect_now": "Connect Now",
-                "connect_later": "Connect Later",
-                "change_settings": "You can change your settings at any time by updating your user profile information.",
-                "thanks": "Thanks for helping to improve OakCloud!",
-                "thanks_community": "Thanks for helping to improve Zehin and OakCloud!",
-                "statistics_collector": "Web UI for collected statistics is under development and will be available at ",
-                "privacy_policy": "Usage stats will include your name, company and email once you login to your OakCloud account",
-                "privacy_policy_link": "Read Privacy Policy",
-                "register": {
-                    "register_installation": "Connect this installation with your OakCloud account and receive important notifications about security updates and other improvements.",
-                    "link_text": "Register Now",
-                    "create_account": "Create Account",
-                    "retrieve_password": "Retrieve Password",
-                    "connection_error": " Looks like this machine is not connected to Internet. Please check connection and try again",
-                    "required_fields": "Please note that all fields are required.",
-                    "welcome_phrase": {
-                        "thanks": "Thanks",
-                        "content": "you’re all set!"
-                    }
-                }
-            },
             "navbar": {
                 "environments": "Environments",
                 "releases": "Releases",
