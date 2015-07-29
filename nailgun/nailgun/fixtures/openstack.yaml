@@ -20,6 +20,8 @@
       controller:
         name: "Controller"
         description: "The Controller initiates orchestration activities and provides an external API.  Other components like Glance (image storage), Keystone (identity management), Horizon (OakCloud dashboard) and Nova-Scheduler are installed on the controller as well."
+        conflicts:
+          - compute
         update_required:
           - compute
           - cinder
