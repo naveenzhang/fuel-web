@@ -52,14 +52,11 @@ function($, _, i18n, Backbone, React, dialogs, componentMixins, models, statisti
         },
         render: function() {
             var elements = [
-                <DocumentationLink key='DocumentationLink' />,
                 <DiagnosticSnapshot key='DiagnosticSnapshot' tasks={this.props.tasks} task={this.props.tasks.findTask({name: 'dump'})} />,
                 <CapacityAudit key='CapacityAudit' />
             ];
-            if (_.contains(app.version.get('feature_groups'), 'mirantis')) {
+            if (true) {
                 elements.unshift(
-                    <RegistrationInfo key='RegistrationInfo' settings={this.props.settings} tracking={this.props.tracking}/>,
-                    <StatisticsSettings key='StatisticsSettings' settings={this.props.settings} statistics={this.props.statistics}/>,
                     <SupportContacts key='SupportContacts' />
                 );
             } else {
@@ -200,12 +197,8 @@ function($, _, i18n, Backbone, React, dialogs, componentMixins, models, statisti
                     title={i18n('support_page.contact_support')}
                     text={i18n('support_page.contact_text')}
                 >
-                    <p>{i18n('support_page.irc_text')} <strong>#fuel</strong> on <a href='http://freenode.net' target='_blank'>freenode.net</a>.</p>
-                    <p>
-                        <a className='btn' href='http://support.mirantis.com/requests/new' target='_blank'>
-                            {i18n('support_page.contact_support')}
-                        </a>
-                    </p>
+                    <p>{i18n('support_page.irc_text')} <a href='mailto:zehin@zehin.com.cn' target='_blank'>zehin@zehin.com.cn</a>.</p>
+
                 </SupportPageElement>
             );
         }
