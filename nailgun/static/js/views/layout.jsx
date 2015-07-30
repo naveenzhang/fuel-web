@@ -250,12 +250,12 @@ function($, _, i18n, i18next, Backbone, React, utils, models, componentMixins, d
                     <div className='footer-box'>
                         {_.contains(version.get('feature_groups'), 'mirantis') &&
                             <div>
-                                <a href='http://www.mirantis.com' target='_blank' className='footer-logo'></a>
+                                <a href='http://www.zehin.com.cn' target='_blank' className='footer-logo'></a>
                                 <div className='footer-copyright pull-left'>{i18n('common.copyright')}</div>
                             </div>
                         }
                         {version.get('release') &&
-                            <div className='footer-version pull-right'>Version: {version.get('release')}</div>
+                            <div className='footer-version pull-right'>Version:1.1</div>
                         }
                         <div className='footer-lang pull-right'>
                             <div className='dropdown dropup'>
