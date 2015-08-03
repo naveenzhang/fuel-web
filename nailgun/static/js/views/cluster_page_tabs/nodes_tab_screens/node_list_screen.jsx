@@ -443,7 +443,11 @@ function($, _, i18n, Backbone, React, utils, models, dispatcher, controls, dialo
                 roles = this.props.cluster.get('release').get('role_models'),
                 conflicts = _.chain(this.props.selectedRoles)
                     .union(this.props.indeterminateRoles)
-                    .map(function(role) {return roles.findWhere({name: role}).conflicts;})
+                    .map(function(role) {
+            //alert(JSON.stringify(roles.findWhere({name: role}).conflicts));
+            //return roles.findWhere({name: role}).conflicts;
+            return [];
+                    })
                     .flatten()
                     .uniq()
                     .value(),
@@ -452,7 +456,6 @@ function($, _, i18n, Backbone, React, utils, models, dispatcher, controls, dialo
             if (restrictionsCheck.result && restrictionsCheck.message) messages.push(restrictionsCheck.message);
             if (roleLimitsCheckResults && !roleLimitsCheckResults.valid && roleLimitsCheckResults.message) messages.push(roleLimitsCheckResults.message);
             if (_.contains(conflicts, name)) messages.push(i18n('cluster_page.nodes_tab.role_conflict'));
-
             return {
                 result: restrictionsCheck.result || _.contains(conflicts, name) || (roleLimitsCheckResults && !roleLimitsCheckResults.valid && !_.contains(this.props.selectedRoles, name)),
                 message: messages.join(' ')
