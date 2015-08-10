@@ -505,7 +505,7 @@ class NailgunReceiver(object):
                     horizon_ip = public_net[0]['ip'].split('/')[0]
                     message = (
                         u"{0} of environment '{1}' is done. "
-                        "Access the OpenStack dashboard (Horizon) at "
+                        "Access the OakCloud dashboard (Horizon) at "
                         "http://{2}/ or via internal network at http://{3}/"
                     ).format(
                         task_name,
@@ -536,7 +536,7 @@ class NailgunReceiver(object):
             try:
                 message = (
                     u"{0} of environment '{1}' is done. "
-                    "Access the OpenStack dashboard (Horizon) at {2}"
+                    "Access the OakCloud dashboard (Horizon) at {2}"
                 ).format(
                     task_name,
                     task.cluster.name,
