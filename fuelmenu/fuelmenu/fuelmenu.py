@@ -178,8 +178,7 @@ class FuelSetup(object):
                         stdout=noout, stderr=noout)
 
         text_header = (u"OakCloud %s setup "
-                       u"Use Up/Down/Left/Right to navigate.  F8 exits."
-                       % self.version)
+                       u"Use Up/Down/Left/Right to navigate.  F8 exits.")
         text_footer = (u"Status messages go here.")
 
         #Top and bottom lines of frame
