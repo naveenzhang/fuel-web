@@ -177,7 +177,7 @@ class FuelSetup(object):
         subprocess.call(["sysctl", "-w", "kernel.printk=4 1 1 7"],
                         stdout=noout, stderr=noout)
 
-        text_header = (u"OakCloud %s setup "
+        text_header = (u"OakCloud setup "
                        u"Use Up/Down/Left/Right to navigate.  F8 exits.")
         text_footer = (u"Status messages go here.")
 
